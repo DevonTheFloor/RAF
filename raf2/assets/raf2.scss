@@ -1,15 +1,18 @@
 body {
-  padding-top: 10px; }
+  padding-top: 10px;
+  background-image: url('../img/fastn.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;}
 
 .container-fluid {
-  border: 5px solid red;
+  
+  border: 15px ridge silver;
+  border-radius: 5%;
   width: 98%;
-  min-height: 98%;
+  min-height: 500px;
 }
 
 [class*="col-"]{
-  background-color: aquamarine;
-  border: 2px solid black;
   border-radius: 3px;
   text-align: center; 
 }
@@ -17,15 +20,25 @@ body {
   align-items: center;
 }
 
-header{border: 2px solid orange;
-  background-color: darkorange;
-  margin: 1%;
+header{
+  background-image: url('../img/fdefnf.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 15px ridge silver;
+  border-radius: 7%;
+  padding: 1%;
 }
 
 main{
   height: 70%;
 }
 section{
+
+}
+footer{
+  padding-bottom: 2%;
+  border: 7px ridge silver;
+  border-radius: 5%
 }
 
 img{
@@ -33,15 +46,4 @@ img{
   width: 45%;
   height: 10%;
 }
-.rec{
-  width: 10%;
-  height: 20%;
-  border-radius: 25%;
-  background-color: grey;
-  &:hover{
-    background-color: darkorange;
-    &:active{
-      background-color: red;
-    }
-  }
-}
+
