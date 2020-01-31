@@ -1,22 +1,27 @@
 body {
   padding-top: 10px; }
 
+.container-fluid {
+  border: 5px solid red;
+  width: 98%;
+  min-height: 98%;
+}
+
 [class*="col-"]{
   background-color: aquamarine;
   border: 2px solid black;
   border-radius: 3px;
-  text-align: center; }
+  text-align: center; 
+}
+.col-xs-6{
+  align-items: center;
+}
 
 header{border: 2px solid orange;
   background-color: darkorange;
   margin: 1%;
 }
 
-.container-fluid {
-  border: 5px solid red;
-  width: 98%;
-  height: 98%;
-}
 main{
   height: 70%;
 }
@@ -25,17 +30,18 @@ section{
 
 img{
   margin: 5%;
-  width: 30%;
-  height: 30%;
+  width: 45%;
+  height: 10%;
 }
-/*@media (min-width: 768px) {
-  .container {
-    width: 750px; } }
-@media (min-width: 992px) {
-  .container {
-    width: 970px; } }
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px; } }*/
-
-
+.rec{
+  width: 10%;
+  height: 20%;
+  border-radius: 25%;
+  background-color: grey;
+  &:hover{
+    background-color: darkorange;
+    &:active{
+      background-color: red;
+    }
+  }
+}
