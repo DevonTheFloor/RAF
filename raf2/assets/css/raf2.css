@@ -1,11 +1,13 @@
 body {
   padding-top: 10px; }
 
-[class*="col-"] {
+/*[class*="col-"]{
   background-color: aquamarine;
   border: 2px solid black;
   border-radius: 3px;
-  text-align: center; }
+  text-align: center; }*/
+footer {
+  border: 2px solid red; }
 
 header {
   border: 2px solid orange;
@@ -13,11 +15,10 @@ header {
   margin: 1%; }
 
 .container-fluid {
-  border: 5px solid red;
-  width: 98%;
-  height: 98%; }
+  border: 5px solid red; }
 
 main {
+  border: 2px solid orange;
   height: 70%; }
 
 img {
