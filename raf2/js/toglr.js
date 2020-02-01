@@ -4,6 +4,16 @@ $(function(){
       $('header').toggle();
   })
 });
+$(function(){
+  $('.add').click(function(){
+    $('.send').css('display','block');
+  })
+});
+$(function(){
+  $('#upld').click(function(){
+    $('.send').css('display','none');
+  })
+});
 /*$(function( ){
   $('.fa-chalkboard-teacher').toogle( );
 });

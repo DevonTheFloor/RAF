@@ -14,10 +14,7 @@ html, body {
   border-radius: 3px;
   text-align: center; 
 }
-.col-xs-6{
-  align-items: center;
-}
-.col-{
+.col-xs{
    background-image: url('../img/fdefnf.png');
 }
 //============ MENU D'EnTÊTE
@@ -26,14 +23,25 @@ header{
   background-color: darkgray;
   //=== couleur de la bordure:
   border: 7px ridge silver;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: fixed;
+  top: 2px;
+  z-index: 1;
+  width: 100%;
   height: auto;
   padding: 1%;
 }
 
+.col-xs-6{
+  align-items: center;
+}
 main{
   height: 70%;
+}
+.send{
+  display: none;
+  text-align: center;
+  background-color: aliceblue;
+  opacity: 0.8;
 }
 section{
 
@@ -45,7 +53,7 @@ footer{
   //==== couleur de la bordure:
   border: 7px ridge silver;
   position: fixed;
-  bottom: 2px;
+  bottom: 0px;
   z-index: 1;
   width: 100%;
   height: auto;
