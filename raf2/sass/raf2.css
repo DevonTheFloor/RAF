@@ -15,15 +15,15 @@ html, body {
 .col-xs-6 {
   align-items: center; }
 
-col-xs-12 {
+.col- {
   background-image: url("../img/fdefnf.png"); }
 
 header {
-  height: auto;
   background-color: darkgray;
+  border: 7px ridge silver;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 15px ridge silver;
+  height: auto;
   padding: 1%; }
 
 main {
@@ -32,6 +32,10 @@ main {
 footer {
   background-color: darkgray;
   border: 7px ridge silver;
+  position: fixed;
+  bottom: 2px;
+  z-index: 1;
+  width: 100%;
   height: auto; }
 
 img {
@@ -42,5 +46,12 @@ img {
   height: 10%; }
   img:active {
     color: #676767; }
+
+.btn-lg {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; }
+  .btn-lg:active ~ footer {
+    display: none; }
 
 /*# sourceMappingURL=raf2.css.map */
