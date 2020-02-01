@@ -22,8 +22,8 @@ col-xs-12{
 }
 
 header{
-  height: 10%;
-  background-image: url('../img/fdefnf.png');
+  height: auto;
+  background-color: darkgray;
   background-repeat: no-repeat;
   background-size: cover;
   border: 15px ridge silver;
@@ -39,7 +39,7 @@ section{
 footer{
   background-color: darkgray;
   border: 7px ridge silver;
-  height: 20%;
+  height: auto;
 }
 
 img{

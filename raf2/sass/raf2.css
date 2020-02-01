@@ -19,8 +19,8 @@ col-xs-12 {
   background-image: url("../img/fdefnf.png"); }
 
 header {
-  height: 10%;
-  background-image: url("../img/fdefnf.png");
+  height: auto;
+  background-color: darkgray;
   background-repeat: no-repeat;
   background-size: cover;
   border: 15px ridge silver;
@@ -32,7 +32,7 @@ main {
 footer {
   background-color: darkgray;
   border: 7px ridge silver;
-  height: 20%; }
+  height: auto; }
 
 img {
   border: 1px solid black;
