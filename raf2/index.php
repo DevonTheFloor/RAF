@@ -1,11 +1,12 @@
-<?php include ('head.php'); ?>   
+      <?php include ('view/head.php'); ?>   
 
-<main class="row">
-        <?php include ('aside.php'); ?>
+      <main class="row">
+        <?php include ('view/aside.php'); ?>
         <section class="col-xs-12 col-lg-12">
-salut! choisi ta matiere
+
         </section>
+        choice of stuff
         <button class="btn btn-primary btn-lg"><i class="fas fa-bars"></i></button>
       </main>
 
-<?php include ('foot.php'); ?> 
+      <?php include ('view/foot.php'); ?> 

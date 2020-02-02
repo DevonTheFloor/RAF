@@ -14,6 +14,11 @@ $(function(){
     $('.send').css('display','none');
   })
 });
+$(function(){
+  $('#cancel').click(function(){
+    $('.send').css('display','none');
+  })
+});
 /*$(function( ){
   $('.fa-chalkboard-teacher').toogle( );
 });

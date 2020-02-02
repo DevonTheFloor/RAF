@@ -2,9 +2,9 @@
 <html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width,initial=1.0"/>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/raf2/assets/css/bootstrap.css" rel="stylesheet">
    <link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
-    <link href="sass/raf2.css" rel="stylesheet">
+    <link href="/raf2/sass/raf2.css" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid">

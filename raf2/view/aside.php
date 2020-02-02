@@ -1,4 +1,4 @@
-<aside class="send col-12 col-lg-3">
+	<aside class="send col-12 col-lg-3">
           <form  action="askbdd.php" method="post" enctype="multipart/form-data">
           <p>
           Formulaire d'envoi de fichier :<br><br>
@@ -22,6 +22,8 @@
           <label for="com">Commentaire:</label><br>
             <textarea></textarea><br><br>
           <input type="submit" id="upld" value="Envoyer !" />
+	  <br><br>
+	  <input type="submit" id="cancel" value="Annuler" />
           </p>
           </form>
         </aside>
