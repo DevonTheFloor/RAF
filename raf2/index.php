@@ -1,7 +1,7 @@
 <?php include ('head.php'); ?>   
 
 <main class="row">
-        <?php include ('aside.php')
+        <?php include ('aside.php'); ?>
         <section class="col-xs-12 col-lg-12">
 salut! choisi ta matiere
         </section>

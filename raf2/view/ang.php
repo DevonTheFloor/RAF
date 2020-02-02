@@ -1,7 +1,7 @@
-<?php include ('/head.php'); ?>   
+<?php include ('../raf2/header.php'); ?>   
 
 <main class="row">
-        <?php include ('/aside.php'); ?>
+        <?php include ('../raf2/aside.php'); ?>
         <section class="col-xs-12 col-lg-12">
           Section lorem
           lorem
@@ -10,4 +10,4 @@
         </section>
         <button class="btn btn-primary btn-lg"><i class="fas fa-bars"></i></button>
       </main>
-<?php include ('/foot.php');?>
+<?php include ('../raf2/foot.php');?>
