@@ -10,11 +10,6 @@ $(function(){
   })
 });
 $(function(){
-  $('#upld').click(function(){
-    $('.send').css('display','none');
-  })
-});
-$(function(){
   $('#cancel').click(function(){
     $('.send').css('display','none');
   })

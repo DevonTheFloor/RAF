@@ -1,10 +1,11 @@
 html, body {
-  height: 100%; }
-
-.container-fluid {
+  height: 100%;
   background-image: url("../img/fastn.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed; }
+
+.container-fluid {
   width: 100%;
   height: 100%; }
 
@@ -40,6 +41,11 @@ main {
   margin: 20%;
   z-index: 3; }
 
+.mini {
+  margin: 2%;
+  width: 70%;
+  height: auto; }
+
 footer {
   background-color: darkgray;
   border: 7px ridge silver;
@@ -52,16 +58,22 @@ footer {
 img {
   border: 1px solid black;
   box-shadow: 8px 8px 8px 8px grey;
+  /*margin: 15%;
+  width: 45%;
+  height: 10%;*/ }
+
+.picnav {
   margin: 15%;
   width: 45%;
   height: 10%; }
-  img:active {
-    color: #676767; }
 
 .btn-lg {
   width: 50px;
   height: 50px;
-  border-radius: 25px; }
+  border-radius: 25px;
+  position: fixed;
+  top: 150px;
+  z-index: 1; }
 
 @media screen and (max-width: 780px) {
   body {
